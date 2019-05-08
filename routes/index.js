@@ -8,4 +8,8 @@ router.get('/', (req, res) => {
     res.sendFile(path + "index.html");
 });
 
+router.get('/economy', (req, res) => {
+    res.sendFile(path + "economy.html")
+});
+
 module.exports = router;

@@ -3,8 +3,7 @@ const routes = require('./routes/index');
 
 const app = express();
 app.use('/', routes);
-app.use(express.static('images'))
-app.use(express.static('views'))
+app.use(express.static('views'));
 
 module.exports = app;
 

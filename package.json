@@ -16,6 +16,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "nodemon ./start.js"
   },
+
+  "nodemonConfig": {
+    "watch": ["html", "css"]
+  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seyerly/bloomsburg.info.git"

@@ -13,30 +13,45 @@
 </head>
 <body>
 
-    <div class="jumbotron">
-        <h1>Bloomsburg</h1>
-        <p>The Best Town in Pennsylvania</p>
+    <div class="jumbotron text-center">
+        <p>Bloomsburg</p>
     </div>
-    <img src="blah.jpg" alt="why lord" >
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
                 <h3>Economy</h3>
-                <p>• Hundreds of high tech employers</p>
-                <p>• Local talent pools</p>
+                <p>• Dozens of high tech employers</p>
+                <p>• Local talent pools to get your business off to the right start</p>
             </div>
             <div class="col-sm-4">
-                <h3>Column 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                <h3>Education</h3>
+                <p>• Bloomsburg University for access to quality and affordable education</p>
+                <p>• From Bloomsburg to Central Columiba, top school districts are plentiful</p>
             </div>
             <div class="col-sm-4">
-                <h3>Column 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                <h3>Quality of Life</h3>
+                <p>• Low housing costs and a low cost of living</p>
+                <p>• Plentiful green spaces, no traffic, low crime, and a tight community bond</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <button id="economyBotton" type="button" class="btn btn-primary btn-lg">Economic Facts</button>
+            </div>
+            <div class="col text-center">
+                <button type="button" class="btn btn-primary btn-lg">School Figures</button>
+            </div>
+            <div class="col text-center">
+                <button type="button" class="btn btn-primary btn-lg">Community Info</button>
             </div>
         </div>
     </div>
-
 </body>
+
+<script type="text/javascript">
+    document.getElementById("economyBotton").onclick = function () {
+        location.href = "/economy";
+    };
+</script>
+
 </html>
