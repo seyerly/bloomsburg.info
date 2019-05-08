@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "chart.js": "^2.8.0",
     "express": "^4.16.4",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0"
@@ -16,11 +17,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "nodemon ./start.js"
   },
-
   "nodemonConfig": {
-    "watch": ["html", "css"]
+    "watch": [
+      "html",
+      "css"
+    ]
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seyerly/bloomsburg.info.git"
