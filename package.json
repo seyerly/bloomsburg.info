@@ -1,0 +1,30 @@
+{
+  "name": "bloomsburg.info",
+  "version": "1.0.0",
+  "description": "Informational Website for the town of Bloomsburg",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "express": "^4.16.4",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon ./start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seyerly/bloomsburg.info.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seyerly/bloomsburg.info/issues"
+  },
+  "homepage": "https://github.com/seyerly/bloomsburg.info#readme"
+}
