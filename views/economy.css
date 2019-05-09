@@ -9,8 +9,12 @@
     background-color: lightblue;
 }
 
+.list-group-item {
+    border: 1px solid black;
+}
+
 .card {
-    margin: 0 auto; 
-    float: none; 
-    margin-bottom: 10px; 
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
 }
